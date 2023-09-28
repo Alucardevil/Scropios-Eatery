@@ -1,10 +1,9 @@
-/* Reset some default browser styles */
+
 body, h1, h2, ul, li, p {
     margin: 0;
     padding: 0;
 }
 
-/* Global styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #502929; 
@@ -41,7 +40,6 @@ nav a {
     font-weight: bold;
 }
 
-/* Navigation pseudo-classes */
 nav a:hover {
     text-decoration: underline;
 }
@@ -56,35 +54,28 @@ nav a:visited {
     color: #ccc;
 }
 
-/* Selectors and pseudo-classes examples */
 #home {
-    /* Selects the first section */
     background-color: #fff;
 }
 
 #menu h2::before {
-    /* Adds content before h2 elements inside the menu section */
     content: "🍕 ";
 }
 
 #menu h2::after {
-    /* Adds content after h2 elements inside the menu section */
     content: " 🍝";
 }
 
 ul li:first-child {
-    /* Selects the first list item in the navigation menu */
     font-size: 18px;
 }
 
 ul li:last-child {
-    /* Selects the last list item in the navigation menu */
     font-size: 18px;
 }
 
 ul li:only-child {
-    /* Selects the only list item in the navigation menu (if there was only one) */
-    font-size: 18px;
+   font-size: 18px;
 }
 
 section:first-of-type {
@@ -129,7 +120,7 @@ section:only-of-type {
 }
 
 .header {
-    background-color: #333; /* Darker header background color */
+    background-color: #333;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -153,15 +144,13 @@ section:only-of-type {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
+    transition: color 0.3s ease-in-out;
 }
 
-/* Navigation hover effect */
 .nav-list a:hover {
-    color: #ffcc00; /* Change text color on hover */
+    color: #ffcc00;
 }
 
-/* Navigation click effect */
 .nav-list a:active {
-    color: #ff6600; /* Change text color on click */
+    color: #ff6600;
 }
